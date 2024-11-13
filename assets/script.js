@@ -38,3 +38,5 @@ document.getElementById("password").addEventListener("focus", function(){
     document.getElementById("passwordError").textContent = "";
 })
 document.getElementById("password").addEventListener("blur",errorPass);
+
+
