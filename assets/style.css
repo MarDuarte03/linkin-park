@@ -91,3 +91,28 @@ a{
     color:red;
     font-size: 10px;
 }
+
+    /*Finlogin*/
+
+/*Loader*/
+.loader {
+  display: inline-flex;
+      flex-direction: row;
+      height: 4em;
+      padding-left: 1em;
+      padding-right: 1em;
+      transform: rotate(180deg);
+      justify-content: right;
+      border-radius: 10px;
+      transition: .4s ease-in-out;
+    }
+    
+    .loader:hover {
+      cursor: pointer;
+      background-color: lightgray;
+    }
+
+
+    /*Fin loader*/
+
+    
